@@ -184,22 +184,18 @@ btnBox.addEventListener('click', (e) => {
     // console.log(e.target.classList.value);
     if (e.target.classList.value == 'arrow left-btn') {
         console.log('leftbtn');
-        e.target.style.backgroundColor = 'red'
         direction = 'left'
     }
     if (e.target.classList.value == 'arrow right-btn') {
         console.log('leftbtn');
-        e.target.style.backgroundColor = 'red'
         direction = 'right'
     }
     if (e.target.classList.value == 'arrow up-btn') {
         console.log('leftbtn');
-        e.target.style.backgroundColor = 'red'
         direction = 'up'
     }
     if (e.target.classList.value == 'arrow down-btn') {
         console.log('leftbtn');
-        e.target.style.backgroundColor = 'red'
         direction = 'down'
     }
 })
