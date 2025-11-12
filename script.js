@@ -5,6 +5,10 @@ let blockWidth = 40
 let cols = Math.floor(board.clientWidth / blockWidth)
 let rows = Math.floor(board.clientHeight / blockHeight)
 
+
+let leftBtn = document.querySelector('.left-btn')
+let btnBox = document.querySelector('.btn-box')
+
 let startButton = document.querySelector('.start-btn')
 let reStartButton = document.querySelector('.restart-btn')
 let modal = document.querySelector('.modal')
@@ -175,3 +179,28 @@ function restartGame() {
     intervalId = setInterval(() => { render() }, 200);
 
 }
+// button show after mobile size
+btnBox.addEventListener('click', (e) => {
+    // console.log(e.target.classList.value);
+    if (e.target.classList.value == 'arrow left-btn') {
+        console.log('leftbtn');
+        e.target.style.backgroundColor = 'red'
+        direction = 'left'
+    }
+    if (e.target.classList.value == 'arrow right-btn') {
+        console.log('leftbtn');
+        e.target.style.backgroundColor = 'red'
+        direction = 'right'
+    }
+    if (e.target.classList.value == 'arrow up-btn') {
+        console.log('leftbtn');
+        e.target.style.backgroundColor = 'red'
+        direction = 'up'
+    }
+    if (e.target.classList.value == 'arrow down-btn') {
+        console.log('leftbtn');
+        e.target.style.backgroundColor = 'red'
+        direction = 'down'
+    }
+})
+
