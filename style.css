@@ -82,3 +82,52 @@ section{
     flex-direction: column;
     align-items: center;
 }
+
+
+.btn-box{
+    display: none;
+}
+
+@media (max-width: 500px) {
+    section{
+        padding: 5vw 3vw;
+    }
+    .info h1{
+        font-size: 3vw;
+    }
+    .btn-box{
+        width: 100%;
+        height: 150px;
+    }
+    .btn-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-box i{
+        font-size: 6vw;
+    }
+    .up-down{
+        gap: 10vw;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-right{
+        gap: 25vw;
+        position: absolute;
+        display: flex;
+    }
+    .arrow{
+        color: rgb(231, 231, 231);
+        border: 1px solid rgb(231, 231, 231);
+        background: transparent;
+        padding: 3vw 6vw;
+        border-radius: 10px;
+    }
+    .arrow:active{
+        scale: .95;
+    }
+}
+
+
