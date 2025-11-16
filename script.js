@@ -1,6 +1,6 @@
 let board = document.querySelector('.board')
-let blockHeight = 30
-let blockWidth = 30
+let blockHeight = 40
+let blockWidth = 40
 
 let cols = Math.floor(board.clientWidth / blockWidth)
 let rows = Math.floor(board.clientHeight / blockHeight)
