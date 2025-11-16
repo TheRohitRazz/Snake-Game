@@ -40,8 +40,8 @@ section{
     flex-grow: 1;
     border: .5px solid rgb(75, 75, 75);
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(30px, 1fr));
 }
 /* .block{
     border: .2px solid rgb(53, 53, 53);
