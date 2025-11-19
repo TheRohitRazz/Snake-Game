@@ -137,7 +137,7 @@ gameOverModal.style.display = 'none'
 startButton.addEventListener('click', () => {
     modal.style.display = 'none'
 
-    intervalId = setInterval(() => { render() }, 400);
+    intervalId = setInterval(() => { render() }, 300);
 
     timeIntervalId = setInterval(() => {
         let [min, sec] = time.split('-').map(Number)
@@ -176,7 +176,7 @@ function restartGame() {
     modal.style.display = 'none'
     snake = [{ x: 1, y: 3 }]
     food = { x: Math.floor(Math.random() * rows), y: Math.floor(Math.random() * cols) }
-    intervalId = setInterval(() => { render() }, 400);
+    intervalId = setInterval(() => { render() }, 300);
 
 }
 // button show after mobile size
