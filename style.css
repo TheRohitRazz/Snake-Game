@@ -30,7 +30,7 @@ section{
 }
 .info{
     padding: 10px 20px;
-    border: .8px solid rgb(53, 53, 53);
+    border: 1px solid rgb(53, 53, 53);
     border-radius: 10px;
 }
 .info h1{
@@ -38,8 +38,9 @@ section{
 }
 .board{
     flex-grow: 1;
-    border: .5px solid rgb(75, 75, 75);
+    border: 1px solid rgb(75, 75, 75);
     display: grid;
+    backdrop-filter: blur(10px);
     grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
 }
